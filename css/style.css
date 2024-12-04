@@ -32,11 +32,18 @@ body {
 /* #endregion */
 
 /* #region aboba-box styles */
-.aboba-box {
+.aboba-box,
+.random-bread-box {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(74, 188, 220);
   padding: 72px 24px;
+}
+/* #endregion */
+
+/* #region random-bread-box styles */
+.random-bread-box {
+  background-color: rgb(41, 125, 149);
 }
 /* #endregion */
